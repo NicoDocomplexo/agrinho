@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-section {
+    position: relative;
+    text-align: center;
+    background-color: #00b4d8;
+    color: white;
+    height: 200px; /* Ajustado para remover a imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    font-size: 1.5em;
+}
+
+.content-section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0077b6;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#quiz-result, #calc-result {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
